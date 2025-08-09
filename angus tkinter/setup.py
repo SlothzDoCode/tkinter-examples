@@ -14,5 +14,10 @@ label = tk.Label(bg="", #same as in config
                  font=("",""), #the first set of "" is the font name the second "" is for the font size
                  )
 
+button = tk.Button(#the entirety of the stuff in labels can go in here and does the same thing
+                   command = "" #the only new thing is this, if you put a function in here, when the button is clicked it will run the function
+                   )
+
 display.mainloop() #will create the window and all items on the display when script is run
+
 
