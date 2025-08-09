@@ -18,6 +18,9 @@ button = tk.Button(#the entirety of the stuff in labels can go in here and does 
                    command = "" #the only new thing is this, if you put a function in here, when the button is clicked it will run the function
                    )
 
+display.attributes('',"") #in the first set you put commands like "-fullscreen" to make it full screen (that is the main one that you will want) the second set of "" you put in a bolean statement
+
 display.mainloop() #will create the window and all items on the display when script is run
+
 
 
